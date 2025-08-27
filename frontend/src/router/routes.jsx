@@ -28,7 +28,7 @@ const Taxes = lazy(() => import('@/pages/Taxes'));
 const Profile = lazy(() => import('@/pages/Profile'));
 
 const About = lazy(() => import('@/pages/About'));
-
+const UserMaster = lazy(()=> import('@/pages/userMaster/UserMaster'))
 let routes = {
   expense: [],
   default: [
@@ -117,6 +117,10 @@ let routes = {
     {
       path: '/taxes',
       element: <Taxes />,
+    },
+     {
+      path: '/UserMaster',
+      element: <UserMaster/>,
     },
 
     {

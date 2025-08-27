@@ -26,6 +26,7 @@ import {
   FilterOutlined,
   WalletOutlined,
   ReconciliationOutlined,
+  
 } from '@ant-design/icons';
 
 const { Sider } = Layout;
@@ -96,6 +97,11 @@ function Sidebar({ collapsible, isMobile = false }) {
     //   label: <Link to={'/about'}>{translate('about')}</Link>,
     //   icon: <ReconciliationOutlined />,
     // },
+    {
+      key: 'UserMaster',
+      label: <Link to={'/UserMaster'}>{translate('UserMaster')}</Link>,
+      icon: <UserOutlined />,
+    },
   ];
 
   useEffect(() => {
