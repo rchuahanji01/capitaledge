@@ -16,8 +16,8 @@
 //           </p>
 //           <p>
 //             GitHub :{' '}
-//             <a href="https://github.com/idurar/idurar-erp-crm">
-//               https://github.com/idurar/idurar-erp-crm
+//             <a href="https://github.com/idurar/capitaledge">
+//               https://github.com/idurar/capitaledge
 //             </a>
 //           </p>
 //           <Button
